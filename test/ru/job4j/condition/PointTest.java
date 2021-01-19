@@ -16,8 +16,8 @@ public class PointTest {
     }
 
     @Test
-    public void when00to11then1_4142135623730951() {
-        double expected = 1.4142135623730951;
+    public void when00to11then1_41() {
+        double expected = 1.41;
         int x1 = 0;
         int y1 = 0;
         int x2 = 1;
@@ -27,8 +27,8 @@ public class PointTest {
     }
 
     @Test
-    public void when11to00then1_4142135623730951() {
-        double expected = 1.4142135623730951;
+    public void when11to00then1_41() {
+        double expected = 1.41;
         int x1 = 1;
         int y1 = 1;
         int x2 = 0;
@@ -38,8 +38,8 @@ public class PointTest {
     }
 
     @Test
-    public void when00to22then2_8284271247461903() {
-        double expected = 2.8284271247461903;
+    public void when00to22then2_82() {
+        double expected = 2.82;
         int x1 = 0;
         int y1 = 0;
         int x2 = 2;
