@@ -6,3 +6,4 @@ public class Triangle {
         return (ab < (ac + bc) && ac < (ab + bc) && bc < (ab + ac));
     }
 }
+
