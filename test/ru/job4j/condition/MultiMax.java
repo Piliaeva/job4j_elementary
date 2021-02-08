@@ -5,8 +5,7 @@ public class MultiMax {
         int result;
         if (first >= second && first > third) {
              result = first;
-        }
-        if (second >= first && second > third) {
+        } else if (second >= first && second > third) {
              result = second;
         } else {
              result = third;
