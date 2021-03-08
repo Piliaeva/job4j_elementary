@@ -1,9 +1,10 @@
 package ru.job4j.ru.job4j.loop;
 
 public class Counter {
+    @SuppressWarnings("checkstyle:ParenPad")
     public static int sum(int start, int finish) {
         int sum = 0;
-        for (int a = start; a <= finish; a++ ) {
+        for (int a = start; a <= finish; a++) {
             sum = sum + a;
         }
         return sum;
@@ -13,5 +14,7 @@ public class Counter {
         System.out.println(sum(0, 10));
         System.out.println(sum(3, 8));
         System.out.println(sum(1, 1));
+        System.out.println(sum(0, 20));
+        System.out.println(sum(5, 6));
     }
 }
