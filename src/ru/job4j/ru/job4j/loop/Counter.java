@@ -1,7 +1,6 @@
 package ru.job4j.ru.job4j.loop;
 
 public class Counter {
-    @SuppressWarnings("checkstyle:ParenPad")
     public static int sum(int start, int finish) {
         int sum = 0;
         for (int a = start; a <= finish; a++) {
