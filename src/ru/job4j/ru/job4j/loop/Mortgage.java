@@ -6,8 +6,7 @@ public class Mortgage {
         double ostatok = amount + (amount * (percent / 100));
         while (ostatok > 0) {
             ostatok = ostatok - salary;
-            year += 1;
-        }
+            year += 1; }
         return year;
     }
 }
