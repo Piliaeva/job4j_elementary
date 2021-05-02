@@ -15,6 +15,7 @@ public class CounterTest {
         int expected = 30;
         Assert.assertEquals(expected, result);
     }
+
     @Test
     public void whenSumEvenNumbersFromOneToOneThenZero() {
         int start = 1;
@@ -23,6 +24,7 @@ public class CounterTest {
         int expected = 0;
         Assert.assertEquals(expected, result);
     }
+
     @Test
     public void whenSumEvenNumbersFromZeroToOneThenZero() {
         int start = 0;
@@ -31,6 +33,7 @@ public class CounterTest {
         int expected = 0;
         Assert.assertEquals(expected, result);
     }
+
     @Test
     public void whenSumEvenNumbersFromZeroToFiveThenSix() {
         int start = 0;
