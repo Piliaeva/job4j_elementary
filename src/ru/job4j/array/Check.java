@@ -7,6 +7,7 @@ public class Check {
         for (int index = 1; index < data.length; index++) {
             if (data[index] != etalon) {
                 result = false;
+                break;
             }
         }
         return result;
