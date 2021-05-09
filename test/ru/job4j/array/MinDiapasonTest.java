@@ -33,4 +33,14 @@ public class MinDiapasonTest {
         int expected = 2;
         Assert.assertEquals(expected, result);
     }
+
+    @Test
+    public void whenNegativeMin() {
+        int[] array = new int[] {10, 2, -5, 1};
+        int start = 0;
+        int finish = 2;
+        int result = MinDiapason.findMin(array, start, finish);
+        int expected = -5;
+        Assert.assertEquals(expected, result);
+    }
 }
